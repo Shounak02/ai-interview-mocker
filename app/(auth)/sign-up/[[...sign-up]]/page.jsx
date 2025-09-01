@@ -7,9 +7,8 @@ export default function SignUpPage() {
       {/* Left Section (Branding) */}
       <div className="relative flex-1 hidden items-center justify-center h-screen bg-gray-900 lg:flex">
         <div className="relative z-10 w-full max-w-md text-center">
-          
-              {/* Logo */}
-              <div className="mx-auto w-80 h-30">
+          {/* Logo */}
+          <div className="mx-auto w-80 h-30">
                 <svg
                   width="100%" 
                   height="100" 
@@ -25,14 +24,13 @@ export default function SignUpPage() {
                 </svg>
               </div>
 
-          
-
           <div className="mt-10 space-y-4">
             <h3 className="text-white text-3xl font-bold">
               Mock interviews powered by AI
             </h3>
             <p className="text-gray-300">
-              Practice, get feedback, and ace your real interviews with confidence.
+              Practice, get feedback, and ace your real interviews with
+              confidence.
             </p>
           </div>
         </div>
@@ -51,19 +49,18 @@ export default function SignUpPage() {
       {/* Right Section (Sign Up Form) */}
       <div className="flex-1 flex items-center justify-center h-screen bg-white">
         <div className="w-full max-w-md space-y-8 px-6 text-gray-600 sm:px-0">
-          {/* Mobile logo */}
-          <div className="lg:hidden flex justify-center">
-            <div className="w-40 h-24">
-              <svg
-                width="100%"
-                height="100%"
-                viewBox="0 0 621 200"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                {/* Paste your SVG paths here */}
-              </svg>
+          {/* Mobile logo + tagline */}
+          <div className="lg:hidden space-y-4 text-center">
+            <div className="flex justify-center">
+              <img src="/logo.svg" width={100} />
             </div>
+            <h3 className="text-gray-800 text-xl font-bold">
+              Mock interviews powered by AI
+            </h3>
+            <p className="text-gray-600 text-sm">
+              Practice, get feedback, and ace your real interviews with
+              confidence.
+            </p>
           </div>
 
           {/* Header */}
@@ -100,7 +97,6 @@ export default function SignUpPage() {
             afterSignUpUrl="/dashboard"
             redirectUrl="/dashboard"
           />
-
         </div>
       </div>
     </main>
