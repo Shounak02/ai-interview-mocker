@@ -71,12 +71,33 @@ function AddNewInterview() {
 
   return (
     <div>
-        <div className='p-10 border rounded-lg bg-secondary hover:scale-105 
+        {/* <div className='p-10 border rounded-lg bg-secondary hover:scale-105 
         hover:shadow-md cursor-pointer transition-all'
         onClick={()=>setOpenDailog(true)}
         >
             <h2 className='font-bold text-lg text-center'>+ Add New</h2>
+        </div> */}
+        
+        <div
+            className="relative w-100 h-60 flex items-center justify-center 
+            rounded-3xl border border-primary/30 
+            bg-gradient-to-br from-primary/5 via-secondary/10 to-primary/5
+            shadow-[0_0_12px_var(--tw-shadow-color)] 
+            hover:shadow-[0_0_28px_var(--tw-shadow-color)]
+            shadow-primary/20
+            transition-all duration-300 ease-in-out cursor-pointer 
+            hover:scale-105"
+            onClick={() => setOpenDailog(true)}
+            >
+            {/* Subtle Animated Glow Overlay */}
+            <div className="absolute inset-0 rounded-3xl bg-gradient-to-r from-primary/10 to-secondary/10 opacity-30 blur-lg animate-pulse" />
+            
+            <h2 className="relative font-bold text-2xl text-center text-primary z-10">
+                + Add New
+            </h2>
         </div>
+
+        
         <Dialog open={openDailog}>
         <DialogContent className="max-w-3xl">
             <DialogHeader>

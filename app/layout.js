@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title: "Hexa-AI Mock Interview",
-  description: "AI Mock Interview Platform",
+  description: "Created by Shounak🐦‍🔥",
 };
 
 export default function RootLayout({ children }) {
