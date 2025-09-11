@@ -8,7 +8,10 @@ export const MockInterview=pgTable('mockInterview',{
     jobExperience:varchar('jobExperience').notNull(),
     createdBy:varchar('createdBy').notNull(),
     createdAt:varchar('createdAt'),
-    mockId:varchar('mockId').notNull()
+    mockId:varchar('mockId').notNull(),
+    subscriptionPlan: "free" | "monthly" | "yearly",
+    subscriptionExpiry: Date,
+
 })
 
 export const UserAnswer=pgTable('userAnswer',{
