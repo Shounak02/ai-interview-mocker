@@ -11,6 +11,7 @@ function DashboardLayout({ children }) {
       {/* Main content */}
       <main className="flex-1 mx-5 md:mx-20 lg:mx-36">
         {children}
+        
       </main>
 
       {/* Footer */}
