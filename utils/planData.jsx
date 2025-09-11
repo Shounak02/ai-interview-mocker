@@ -1,47 +1,32 @@
-export default[
-    {
-        id:1,
-        name: 'Free' ,
-        cost:0,
-        offering: [
-            {
-                value:'✔️ Create 7 Free Mock Interview'
-            },
-            {
-                value:'✔️ Unlimited Retake Interview'
-            },
-            {
-                value: '❌ Practice Question'
-            },
-            {
-                value: '❌ Exlcusive App Access'
-            },
-            {
-                value: '❌ Email Support'
-            },
-        ]
-    },
-    {
-        id:2,
-        name: 'Monthly',
-        cost:5.99,
-        paymentLink: '',
-        offering:[
-            {
-                value:'✔️ Create Free Mock Interview'
-            },
-            {
-                value: '✔️ Unlimited Retake Interview'
-            },
-            {
-                value: '✔️ Practice Question'
-            },
-            {
-                value: '✔️ Exlcusive App Access'
-            },
-            {
-                value: '✔️ Email Support'
-            }
-        ]
-    }
-]
+const planData = [
+  {
+    id: 1,
+    name: "Monthly Plan",
+    cost: 1999, // ₹1999
+    bestValue: true,
+    offering: [
+      { value: "Unlimited mock interviews" },
+      { value: "Priority support" },
+    ],
+  },
+  {
+    id: 2,
+    name: "Yearly Plan",
+    cost: 999, // ₹999
+    offering: [
+      { value: "Unlimited mock interviews" },
+      { value: "Priority support" },
+      { value: "Access to exclusive content" },
+    ],
+  },
+  {
+    id: 3,
+    name: "Free Plan",
+    cost: 0,
+    offering: [
+      { value: "7 Free Mock Interviews" },
+    ],
+  },
+];
+
+export default planData;
