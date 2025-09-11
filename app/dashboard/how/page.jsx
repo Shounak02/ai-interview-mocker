@@ -30,8 +30,8 @@ function HowItWorks() {
   ]
 
   return (
-    <div className="p-10 md:mx-20 lg:mx-36">
-      <h1 className="text-3xl font-bold mb-8">How Hexa Works</h1>
+    <div className="p-10 md:mx-20 lg:mx-36 pt-10">
+      <h1 className="text-3xl font-bold mb-8 pt-10">How Hexa Works</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
         {steps.map((step, index) => (
           <motion.div

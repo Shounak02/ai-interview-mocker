@@ -33,7 +33,7 @@ function QuestionsPage() {
 
   return (
     <div className="p-10">
-      <h2 className="text-3xl font-bold mb-3">Mock Interview Questions</h2>
+      <h2 className="text-3xl font-bold mb-3 pt-10">Mock Interview Questions</h2>
       <p className="text-gray-500 mb-5">
         Select a question to view it and hear it read aloud.
       </p>

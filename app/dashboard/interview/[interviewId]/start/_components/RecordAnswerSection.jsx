@@ -120,8 +120,8 @@ function RecordAnswerSection({mockInterviewQuestion,activeQuestionIndex,intervie
         onClick={StartStopRecording}
         >
             {isRecording?(
-            <h2 className='text-red-600 animate-pulse flex gap-2'><StopCircle/>Stop Recording</h2>):
-            (<span className="text-primary flex gap-2 items-center"><Mic /> Record Answer</span>)}</Button>
+            <h2 className='text-red-600 animate-pulse flex gap-2 hover:scale-110 cursor-pointer'><StopCircle/>Stop Recording</h2>):
+            (<span className="text-primary flex gap-2 items-center "><Mic /> Record Answer</span>)}</Button>
         
         
     </div>

@@ -5,7 +5,7 @@ export default[
         cost:0,
         offering: [
             {
-                value:'✔️ Create 3 Free Mock Interview'
+                value:'✔️ Create 7 Free Mock Interview'
             },
             {
                 value:'✔️ Unlimited Retake Interview'
